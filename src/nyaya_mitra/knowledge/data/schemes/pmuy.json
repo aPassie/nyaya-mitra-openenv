@@ -1,0 +1,34 @@
+{
+  "scheme_id": "pmuy",
+  "name": {
+    "en": "Pradhan Mantri Ujjwala Yojana",
+    "hi": "प्रधानमंत्री उज्ज्वला योजना"
+  },
+  "category": "women_child",
+  "ministry": "Ministry of Petroleum and Natural Gas",
+  "benefit": {
+    "en": "Free LPG connection (deposit-free) plus first refill and stove for adult women in BPL households",
+    "hi": "बीपीएल परिवारों की वयस्क महिलाओं के लिए मुफ्त एलपीजी कनेक्शन, पहली रिफिल और चूल्हा"
+  },
+  "eligibility_rules_human": "Adult woman (18 or above) belonging to a BPL household, where no other LPG connection exists in the family in her name or any other family member's name.",
+  "required_documents": [
+    "Aadhaar of applicant",
+    "BPL ration card or SECC verification",
+    "Bank passbook copy",
+    "Recent photograph"
+  ],
+  "application_paths": {
+    "online_url": "https://www.pmuy.gov.in/",
+    "offline_office_pattern": "Nearest LPG distributor of any oil marketing company",
+    "offline_steps": [
+      "Submit KYC form at the LPG distributor",
+      "Provide BPL proof and Aadhaar",
+      "Distributor verifies and forwards application",
+      "Receive connection and first refill"
+    ]
+  },
+  "source": {
+    "url": "https://www.pmuy.gov.in/",
+    "verified_on": "2026-04-25"
+  }
+}

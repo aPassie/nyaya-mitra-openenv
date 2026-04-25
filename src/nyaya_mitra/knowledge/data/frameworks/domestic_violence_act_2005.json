@@ -1,0 +1,34 @@
+{
+  "framework_id": "domestic_violence_act_2005",
+  "name": {
+    "en": "Protection of Women from Domestic Violence Act, 2005",
+    "hi": "घरेलू हिंसा से महिलाओं का संरक्षण अधिनियम, 2005"
+  },
+  "category": "women_protection",
+  "applicable_situations": [
+    "Physical, sexual, verbal, emotional, or economic abuse by a domestic partner or any member of a shared household",
+    "Threats, intimidation, or coercion within a domestic relationship",
+    "Dispossession from a shared household"
+  ],
+  "forum": "Magistrate of the First Class (Judicial Magistrate)",
+  "limitation_period_note": "No specific limitation period; protection orders are forward-looking and may be sought at any time the abuse is ongoing or apprehended.",
+  "procedural_steps": [
+    "Approach a Protection Officer or registered service-provider NGO",
+    "File Form DV-1 (Domestic Incident Report) before the Magistrate",
+    "Magistrate may grant protection, residence, monetary, custody, or compensation orders",
+    "Counter-affidavit and evidence are exchanged",
+    "Final order; ex-parte interim relief is available in urgent cases"
+  ],
+  "required_documents": [
+    "Identity proof of the aggrieved person",
+    "Address proof of the shared household",
+    "Medical records or photographs of injuries (if any)",
+    "Witness statements (if available)",
+    "Marriage proof or proof of domestic relationship"
+  ],
+  "legal_aid_authority": "DLSA",
+  "source": {
+    "url": "https://nalsa.gov.in/services/legal-aid",
+    "verified_on": "2026-04-25"
+  }
+}

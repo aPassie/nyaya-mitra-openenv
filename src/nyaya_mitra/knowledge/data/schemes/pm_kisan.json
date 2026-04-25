@@ -1,0 +1,33 @@
+{
+  "scheme_id": "pm_kisan",
+  "name": {
+    "en": "PM Kisan Samman Nidhi",
+    "hi": "पीएम किसान सम्मान निधि"
+  },
+  "category": "agriculture_rural",
+  "ministry": "Ministry of Agriculture and Farmers Welfare",
+  "benefit": {
+    "en": "Direct income support of rupees 6,000 per year, in three equal installments",
+    "hi": "तीन समान किस्तों में सालाना 6,000 रुपये की प्रत्यक्ष आय सहायता"
+  },
+  "eligibility_rules_human": "Any landholding farmer family in India whose name appears in state land records, subject to exclusions (institutional landholders, constitutional post holders, serving or retired government employees, professionals, income-tax payers).",
+  "required_documents": [
+    "Aadhaar",
+    "Bank account details",
+    "Land record (khasra-khatauni)"
+  ],
+  "application_paths": {
+    "online_url": "https://pmkisan.gov.in/",
+    "offline_office_pattern": "Common Service Center (CSC) or village patwari office",
+    "offline_steps": [
+      "Visit nearest CSC or village patwari with documents",
+      "Fill the PM-Kisan registration form",
+      "Submit Aadhaar, bank details, and land record",
+      "Receive enrollment confirmation"
+    ]
+  },
+  "source": {
+    "url": "https://pmkisan.gov.in/",
+    "verified_on": "2026-04-25"
+  }
+}
