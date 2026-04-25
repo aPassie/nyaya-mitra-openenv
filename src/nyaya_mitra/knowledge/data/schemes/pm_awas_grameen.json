@@ -1,0 +1,33 @@
+{
+  "scheme_id": "pm_awas_grameen",
+  "name": {
+    "en": "Pradhan Mantri Awas Yojana - Gramin",
+    "hi": "प्रधानमंत्री आवास योजना - ग्रामीण"
+  },
+  "category": "agriculture_rural",
+  "ministry": "Ministry of Rural Development",
+  "benefit": {
+    "en": "Financial assistance of rupees 1.20 lakh in plain areas / 1.30 lakh in hilly areas for construction of a pucca house with basic amenities",
+    "hi": "मैदानी क्षेत्रों में 1.20 लाख / पहाड़ी क्षेत्रों में 1.30 लाख रुपये की पक्के घर के निर्माण हेतु सहायता"
+  },
+  "eligibility_rules_human": "Rural household identified in SECC 2011 deprivation parameters as houseless or living in a kuccha house with one or two rooms; not owning a pucca house elsewhere.",
+  "required_documents": [
+    "Aadhaar",
+    "Bank account details",
+    "SECC verification",
+    "MGNREGA job card (if any)"
+  ],
+  "application_paths": {
+    "online_url": "https://pmayg.nic.in/",
+    "offline_office_pattern": "Gram Panchayat / Block Development Office",
+    "offline_steps": [
+      "Verify SECC inclusion at GP office",
+      "Application processed via AwaasSoft",
+      "Funds released in three installments to bank account"
+    ]
+  },
+  "source": {
+    "url": "https://pmayg.nic.in/",
+    "verified_on": "2026-04-25"
+  }
+}

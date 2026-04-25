@@ -1,0 +1,32 @@
+{
+  "scheme_id": "mgnrega",
+  "name": {
+    "en": "Mahatma Gandhi National Rural Employment Guarantee Act",
+    "hi": "महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी अधिनियम"
+  },
+  "category": "labor_livelihood",
+  "ministry": "Ministry of Rural Development",
+  "benefit": {
+    "en": "Up to 100 days of guaranteed wage employment per financial year per rural household for adult members willing to do unskilled manual work",
+    "hi": "ग्रामीण परिवार के वयस्क सदस्यों के लिए प्रति वित्तीय वर्ष 100 दिन तक का गारंटीशुदा अकुशल मजदूरी रोजगार"
+  },
+  "eligibility_rules_human": "Adult member (18+) of a rural household willing to do unskilled manual work; the household must apply for and obtain a job card from the Gram Panchayat.",
+  "required_documents": [
+    "Aadhaar",
+    "Address proof of rural residence",
+    "Photographs"
+  ],
+  "application_paths": {
+    "online_url": "https://nrega.nic.in/",
+    "offline_office_pattern": "Gram Panchayat office",
+    "offline_steps": [
+      "Apply to Gram Panchayat for a job card",
+      "Job card issued within 15 days of valid application",
+      "Apply for work; wages paid within 15 days of work completion"
+    ]
+  },
+  "source": {
+    "url": "https://nrega.nic.in/",
+    "verified_on": "2026-04-25"
+  }
+}

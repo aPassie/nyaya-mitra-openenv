@@ -1,0 +1,32 @@
+{
+  "framework_id": "minimum_wages_act_1948",
+  "name": {
+    "en": "Minimum Wages Act, 1948",
+    "hi": "न्यूनतम मजदूरी अधिनियम, 1948"
+  },
+  "category": "labor",
+  "applicable_situations": [
+    "Worker in a scheduled employment paid below the state-notified minimum wage",
+    "Non-payment or under-payment of wages for the prescribed working hours",
+    "Failure to pay overtime wages at twice the ordinary rate"
+  ],
+  "forum": "Authority appointed under section 20 (typically the Labour Commissioner)",
+  "limitation_period_note": "Application under section 20 must be filed within 6 months from the date the wages became payable; the Authority may admit a delayed application for sufficient cause.",
+  "procedural_steps": [
+    "Compute the shortfall between wages paid and the state-notified minimum wage for the scheduled employment",
+    "File application before the Authority under section 20",
+    "Authority may direct payment of the shortfall plus compensation up to 10 times the shortfall",
+    "Appeal to the Labour Court / High Court if aggrieved by the order"
+  ],
+  "required_documents": [
+    "Identity proof",
+    "Proof of employment (appointment letter, attendance records)",
+    "Wage slips or evidence of wages paid",
+    "Notification of minimum wage for the scheduled employment"
+  ],
+  "legal_aid_authority": "DLSA",
+  "source": {
+    "url": "https://labour.gov.in/",
+    "verified_on": "2026-04-25"
+  }
+}
