@@ -1,0 +1,39 @@
+{
+  "seed": 1,
+  "demographics": {
+    "gender": "female",
+    "age": 32,
+    "state": "punjab",
+    "district": "ludhiana"
+  },
+  "economic": {
+    "occupation": "farmer",
+    "holds_cultivable_land": true,
+    "monthly_income": 8000,
+    "bpl_household": true,
+    "existing_lpg_in_family": false,
+    "is_professional": false,
+    "income_tax_payer": false
+  },
+  "family": {
+    "marital_status": "married",
+    "children": 2
+  },
+  "situation_specific": {
+    "presenting_issue": "I work on a small farm but my income is irregular and things at home with my husband have become difficult.",
+    "hidden_facts": {
+      "land_acres": 1.2
+    },
+    "sensitive_facts": {
+      "dv_history": true,
+      "dv_present": true
+    }
+  },
+  "behavior": {
+    "trust_level": "wary",
+    "verbosity": "med",
+    "language_preference": "en",
+    "literacy": "low",
+    "initial_vague_query": "I work on a small farm and need help, also things at home are not good."
+  }
+}

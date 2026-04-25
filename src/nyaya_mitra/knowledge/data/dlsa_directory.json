@@ -1,0 +1,31 @@
+{
+  "NALSA": {
+    "contact_id": "nalsa_central",
+    "name": "National Legal Services Authority",
+    "phone": "15100",
+    "url": "https://nalsa.gov.in/"
+  },
+  "SLSAs": {
+    "punjab": {
+      "contact_id": "slsa_punjab",
+      "name": "Punjab State Legal Services Authority",
+      "phone": "0172-2741336"
+    }
+  },
+  "DLSAs": {
+    "punjab.ludhiana": {
+      "contact_id": "dlsa_ludhiana",
+      "name": "DLSA Ludhiana",
+      "phone": "0161-2444411"
+    }
+  },
+  "qualifying_categories": [
+    "Women",
+    "Children",
+    "Persons with disability",
+    "Members of SC/ST",
+    "Persons in custody",
+    "Industrial workmen",
+    "Persons with annual income below the state legal aid threshold"
+  ]
+}

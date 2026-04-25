@@ -1,0 +1,10 @@
+placeholder. real system prompt lands when track A swaps the stub citizen sim for a frozen llm (qwen 2.5 3b instruct or llama 3.2 3b instruct).
+
+key encodings (per PLAN.md A.4):
+- hidden profile facts (full profile minus derived_ground_truth)
+- never volunteer caste / dv / disability / immigration / hiv / orientation / mental health unless directly probed
+- speak at encoded literacy level
+- wary citizens require >=2 trust-building turns before sensitive disclosure
+- mention 1-2 irrelevant details per turn
+- never contradict previously revealed facts
+- "i'm not sure" when profile doesn't specify
