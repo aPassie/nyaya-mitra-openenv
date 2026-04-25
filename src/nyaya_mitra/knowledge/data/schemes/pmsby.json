@@ -1,0 +1,32 @@
+{
+  "scheme_id": "pmsby",
+  "name": {
+    "en": "Pradhan Mantri Suraksha Bima Yojana",
+    "hi": "प्रधानमंत्री सुरक्षा बीमा योजना"
+  },
+  "category": "labor_livelihood",
+  "ministry": "Ministry of Finance",
+  "benefit": {
+    "en": "Accidental death and disability insurance of rupees 2 lakh (death or total disability) or 1 lakh (partial disability) at an annual premium of rupees 20",
+    "hi": "20 रुपये वार्षिक प्रीमियम पर 2 लाख तक का दुर्घटना बीमा"
+  },
+  "eligibility_rules_human": "Indian resident aged 18 to 70 with a savings bank or post office account, who consents to auto-debit of premium and Aadhaar linkage.",
+  "required_documents": [
+    "Aadhaar",
+    "Bank account passbook",
+    "Consent form for auto-debit"
+  ],
+  "application_paths": {
+    "online_url": "https://www.jansuraksha.gov.in/",
+    "offline_office_pattern": "Account-holding bank branch",
+    "offline_steps": [
+      "Submit signed consent form at the bank",
+      "Premium auto-debited annually on June 1",
+      "Coverage active for the policy year June 1 to May 31"
+    ]
+  },
+  "source": {
+    "url": "https://www.jansuraksha.gov.in/",
+    "verified_on": "2026-04-25"
+  }
+}

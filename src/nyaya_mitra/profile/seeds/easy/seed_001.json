@@ -4,7 +4,8 @@
     "gender": "female",
     "age": 32,
     "state": "punjab",
-    "district": "ludhiana"
+    "district": "ludhiana",
+    "residence": "rural"
   },
   "economic": {
     "occupation": "farmer",
@@ -13,7 +14,9 @@
     "bpl_household": true,
     "existing_lpg_in_family": false,
     "is_professional": false,
-    "income_tax_payer": false
+    "income_tax_payer": false,
+    "willing_unskilled_work": true,
+    "has_bank_account": false
   },
   "family": {
     "marital_status": "married",

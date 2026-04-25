@@ -113,9 +113,8 @@ def test_derived_ground_truth_runs_kb_checkers(env: NyayaMitraEnv, monkeypatch: 
     monkeypatch.setenv("NYAYA_DEBUG", "1")
     env.reset(seed=1)
     truth = env.state()["profile"]["derived_ground_truth"]
-    assert "pm_kisan" in truth["eligible_schemes"]
-    assert "pmuy" in truth["eligible_schemes"]
-    assert "domestic_violence_act_2005" in truth["applicable_frameworks"]
+    assert set(truth["eligible_schemes"]) == {"pm_kisan", "pmuy", "mgnrega"}
+    assert set(truth["applicable_frameworks"]) == {"domestic_violence_act_2005"}
 
 
 def test_step_after_done_raises(env: NyayaMitraEnv):

@@ -1,0 +1,32 @@
+{
+  "framework_id": "maternity_benefit_act_1961",
+  "name": {
+    "en": "Maternity Benefit Act, 1961",
+    "hi": "मातृत्व लाभ अधिनियम, 1961"
+  },
+  "category": "women_protection",
+  "applicable_situations": [
+    "Pregnant woman employee being denied maternity leave or maternity benefit",
+    "Termination during pregnancy or maternity leave",
+    "Denial of nursing breaks or creche facility (for establishments with 50 or more employees)"
+  ],
+  "forum": "Inspector appointed under the Act / Labour Commissioner; appeal to the appropriate authority",
+  "limitation_period_note": "Claim should be made within 1 year of the cause of action; appeal within 60 days of the inspector's order.",
+  "procedural_steps": [
+    "Submit a written claim to the employer for the maternity benefit",
+    "On refusal, file complaint with the Inspector under section 17",
+    "Inspector orders the employer to pay the due maternity benefit",
+    "Appeal to the prescribed authority within 60 days if aggrieved"
+  ],
+  "required_documents": [
+    "Identity proof",
+    "Employment proof (appointment letter, salary slips)",
+    "Medical certificate of pregnancy or delivery",
+    "Refusal letter or e-mail from the employer (if any)"
+  ],
+  "legal_aid_authority": "DLSA",
+  "source": {
+    "url": "https://labour.gov.in/",
+    "verified_on": "2026-04-25"
+  }
+}

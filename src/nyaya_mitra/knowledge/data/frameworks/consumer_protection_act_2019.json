@@ -1,0 +1,34 @@
+{
+  "framework_id": "consumer_protection_act_2019",
+  "name": {
+    "en": "Consumer Protection Act, 2019",
+    "hi": "उपभोक्ता संरक्षण अधिनियम, 2019"
+  },
+  "category": "consumer",
+  "applicable_situations": [
+    "Defective goods sold to a consumer",
+    "Deficient service in telecom, banking, insurance, e-commerce, or healthcare",
+    "Unfair or restrictive trade practice",
+    "Misleading advertisement causing loss to a consumer"
+  ],
+  "forum": "District Consumer Disputes Redressal Commission (up to rupees 1 crore) / State Commission (1-10 crore) / National Commission (above 10 crore)",
+  "limitation_period_note": "Complaint must be filed within 2 years from the date the cause of action arose; condonation possible for sufficient cause.",
+  "procedural_steps": [
+    "Send a written notice to the seller or service provider stating the defect or deficiency",
+    "File complaint before the appropriate Consumer Commission with the prescribed fee",
+    "Commission issues notice; opposite party files reply within 30 days",
+    "Hearing and order; appeal within 30-45 days to the next-tier commission"
+  ],
+  "required_documents": [
+    "Identity proof",
+    "Invoice or proof of purchase",
+    "Photographs or other evidence of defect / deficiency",
+    "Copy of notice sent to the opposite party",
+    "Affidavit of the complainant"
+  ],
+  "legal_aid_authority": "DLSA",
+  "source": {
+    "url": "https://consumeraffairs.nic.in/",
+    "verified_on": "2026-04-25"
+  }
+}
