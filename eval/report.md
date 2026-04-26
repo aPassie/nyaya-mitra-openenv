@@ -1,4 +1,4 @@
-# Eval report — scripted-baseline
+# Eval report — scripted
 
 ## Headline
 
