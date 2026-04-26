@@ -1,3 +1,14 @@
+---
+title: Nyaya Mitra
+emoji: ⚖️
+colorFrom: indigo
+colorTo: green
+sdk: docker
+app_port: 8000
+pinned: false
+short_description: Paralegal + welfare advisor RL env for vulnerable Indian citizens.
+---
+
 # Nyaya Mitra
 
 A paralegal-cum-welfare-advisor RL environment for vulnerable Indian citizens. OpenEnv-compliant. GRPO-trained. Adversarially self-improving.

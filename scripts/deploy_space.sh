@@ -22,17 +22,17 @@ if [ -z "${HF_TOKEN:-}" ]; then
     exit 1
 fi
 
-if ! command -v huggingface-cli >/dev/null 2>&1; then
-    echo "error: huggingface-cli not installed."
+if ! command -v hf >/dev/null 2>&1; then
+    echo "error: hf cli not installed."
     echo "  install: pip install huggingface_hub"
     exit 1
 fi
 
 echo "logging into hugging face..."
-huggingface-cli login --token "$HF_TOKEN" --add-to-git-credential >/dev/null
+hf auth login --token "$HF_TOKEN" --add-to-git-credential >/dev/null
 
 echo "ensuring space $SPACE_REPO exists (docker sdk)..."
-huggingface-cli repo create "$SPACE_REPO" --type space --space_sdk docker -y >/dev/null 2>&1 || true
+hf repo create "$SPACE_REPO" --type space --space-sdk docker --exist-ok >/dev/null 2>&1 || true
 
 remote_url="https://huggingface.co/spaces/$SPACE_REPO"
 if git remote get-url hf-space >/dev/null 2>&1; then
