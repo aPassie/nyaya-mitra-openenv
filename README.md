@@ -6,7 +6,7 @@ colorTo: green
 sdk: docker
 app_port: 8000
 pinned: false
-short_description: Paralegal + welfare advisor RL env for vulnerable Indian citizens.
+short_description: Paralegal + welfare advisor RL env for India.
 ---
 
 # Nyaya Mitra
