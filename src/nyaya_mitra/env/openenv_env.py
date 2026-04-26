@@ -215,6 +215,24 @@ class NyayaEnvironment(Environment[NyayaAction, NyayaObservation, NyayaState]):
     def close(self) -> None:
         self._inner.close()
 
+    def get_metadata(self):
+        """override default metadata so judges' tooling sees the actual env story
+        when they hit /metadata, not the auto-generated 'X environment' string."""
+        from openenv.core.env_server.types import EnvironmentMetadata
+
+        return EnvironmentMetadata(
+            name="nyaya-mitra",
+            description=(
+                "Multi-turn RL environment that teaches an LLM to route vulnerable "
+                "Indian citizens to the right welfare schemes + free legal aid. "
+                "OpenEnv-conformant. Reward is a composable Sequential/Gate/WeightedSum "
+                "Rubric tree (18 introspectable nodes). Pydantic schema enforces that "
+                "every legal route carries a real DLSA contact_id — the agent cannot "
+                "structurally output advice without routing."
+            ),
+            version="0.1.0",
+        )
+
     def _populate_rubric_last_scores(
         self, action: NyayaAction, terminal_obs: NyayaObservation
     ) -> None:
