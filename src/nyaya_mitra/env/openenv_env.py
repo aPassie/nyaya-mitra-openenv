@@ -137,6 +137,14 @@ class NyayaEnvironment(Environment[NyayaAction, NyayaObservation, NyayaState]):
         timeout_s: float | None = None,
         **kwargs: Any,
     ) -> NyayaObservation:
+        # auto-reset if no episode is active. happens on OpenEnv's HTTP transport,
+        # which spins up a fresh env per request (the canonical stateful path is
+        # WebSocket / MCP). without this, a single /step call would 500.
+        if self._inner._state is None:
+            self._inner.reset(seed=0, difficulty=None)
+            self._episode_id = self._episode_id or "auto"
+            self._step_count = 0
+
         self._step_count += 1
         adv = _ADVISOR_ADAPTER.validate_python(action.advisor)
         result = self._inner.step(adv)
