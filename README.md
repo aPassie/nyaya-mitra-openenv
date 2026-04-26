@@ -38,7 +38,7 @@ Multi-turn dialogue. Each turn the advisor emits one of four actions:
 - `Explain` — bounded teaching utterance, must match citizen literacy
 - `Finalize(ActionPlan)` — submits the plan, ends the episode
 
-The plan is a structured Pydantic object. **Every `LegalRouteRecommendation` requires a `free_legal_aid_contact: {authority: NALSA|SLSA|DLSA, contact_id: str}` — the schema rejects construction without it.** The agent cannot represent "advice without a route." This is the project's spine.
+The plan is a structured Pydantic object. **Every `LegalRouteRecommendation` requires a `free_legal_aid_contact: {authority: NALSA|SLSA|DLSA, contact_id: str}` — the schema rejects construction without it.** The agent cannot represent "advice without a route." This is the project's spine — see [`demo/the_killer_demo.py`](demo/the_killer_demo.py) for a 5-line script that shows pydantic refusing the bad case and accepting only the routed one.
 
 The reward is a composable OpenEnv `Rubric` tree:
 
